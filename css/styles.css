@@ -23,11 +23,11 @@ button {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
     
  .text-color {
-    color: #4d5ae5;
+    color: #2e2f42;
  }
 
  .menu-item {
@@ -87,13 +87,13 @@ button {
     color: #404bbf;
  }
 
- .text-color-footer {
-    color: #f4f4fd;
- }
-
  .page-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+ }
+
+ .text-color-footer {
+    color: #f4f4fd;
  }
