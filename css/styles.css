@@ -76,7 +76,7 @@ button:hover {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #2e2f42; 
     text-align: center;
  }
 
@@ -123,9 +123,9 @@ button:hover {
     background: #f4f4fd;
 }
 
-.page-text-section {
+/* .page-text-section {
     background-color: #2e2f42;
-}
+}  */
 
 .page-text-section3 {
     background-color: #ffffff;
@@ -133,4 +133,8 @@ button:hover {
  
 .back {
     background-color: #ffffff;
+}
+
+.onepage-text-section {
+    background-color: #2e2f42;
 }
