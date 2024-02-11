@@ -142,3 +142,11 @@ button:hover {
 footer {
     background: #2e2f42;
 }
+
+.page-item {
+    background-color: #ffffff;
+}
+
+.page-text-footer {
+    color: #f4f4fd;
+}
