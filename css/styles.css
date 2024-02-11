@@ -60,7 +60,7 @@ button:hover {
     
  }
 
- h1 {
+ .h10 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -70,7 +70,7 @@ button:hover {
     
  }
 
- h2 {
+ .h20 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -80,7 +80,7 @@ button:hover {
     text-align: center;
  }
 
- h3 {
+ .h30 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
