@@ -42,6 +42,10 @@ button:hover {
     color: #2e2f42;
  }
 
+ .menu-link {
+    color: #2e2f42;
+ }
+
  .menu-item {
     font-weight: 500;
     font-size: 16px;
@@ -53,6 +57,7 @@ button:hover {
  .menu-link:hover,
  .menu-link:focus {
     color: #404bbf;
+    
  }
 
  h1 {
@@ -116,5 +121,13 @@ button:hover {
 
 .page-text1-section {
     background: #f4f4fd;
+}
+
+.page-text-section {
+    background-color: #2e2f42;
+}
+
+.page-text-section3 {
+    background-color: #ffffff;
 }
  
