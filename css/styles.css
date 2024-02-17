@@ -170,8 +170,8 @@ button:hover {
     color: #2e2f42;
     text-align: left;
     margin-top: 32px;
-    /* margin-left: 16px;
-    margin-bottom: 64px; */
+    margin-left: 16px;
+    /* margin-bottom: 64px;  */
  }
 
  .menu-link-address {
@@ -196,6 +196,7 @@ button:hover {
     color: #434455;
     margin-top: 8px;
     margin-bottom: 32px;
+    /* margin-left: 16px; */
  }
 
  .text-color-footer {
@@ -233,10 +234,10 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.section {
+/* .section {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} */
 
 /* ======================= first section "Effective Solutions ========== */
 
@@ -261,12 +262,12 @@ footer {
 
 .description-ul {
     display: flex;
+    gap: 24px;
     background-color: #ffffff;
 }
 
 .back-description-li {
     width: calc((100% - 72px) / 4);
-    margin-right: 24px;
 }
 
 
@@ -290,12 +291,18 @@ footer {
     width: calc((100% - 72px) / 3);
 }
 
+.page-text-port {
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
 /* ========================= forth section "Our portfolio"================= */
 
 .our-portfolio-ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 48px;
+    gap: 48px 24px;
 
 }
 
