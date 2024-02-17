@@ -1,17 +1,68 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
- }
 
 ul,
 li {
     list-style-type: none;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
 a {
     text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+ } 
+
+ .container {
+    max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+ }
+
+ .page-header {
+    border-bottom: 1px solid #e7e9fc;
+ }
+
+ .page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+
+.menu {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+}
+
+.menu-page-address {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between;  */
+}
+
+.menu-address {
+    display: flex;
 }
 
 button {
@@ -36,6 +87,8 @@ button:hover {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
+    
 }
     
  .text-color {
@@ -44,6 +97,8 @@ button:hover {
 
  .menu-link {
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
  }
 
  .menu-item {
@@ -66,11 +121,31 @@ button:hover {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center
+    text-align: center;
+
     
  }
 
  .hew {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42; 
+    text-align: center;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+ }
+
+ .hut {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -86,7 +161,10 @@ button:hover {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-align: left;
+    margin-top: 32px;
+    /* margin-left: 16px;
+    margin-bottom: 64px; */
  }
 
  .menu-link-address {
@@ -109,6 +187,7 @@ button:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
  }
 
  .text-color-footer {
@@ -123,20 +202,13 @@ button:hover {
     background: #f4f4fd;
 }
 
-/* .page-text-section {
-    background-color: #2e2f42;
-}  */
-
 .page-text-section3 {
     background-color: #ffffff;
 }
  
-.back {
-    background-color: #ffffff;
-}
-
 .onepage-text-section {
     background-color: #2e2f42;
+
 }
 
 footer {
@@ -151,4 +223,69 @@ footer {
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* ========================= second section =========================*/
+
+.content-avatar {
+    text-align:center;
+}
+
+.page-text-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+.description-ul {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.back-description-li {
+    width: calc((100% - 72px) / 4);
+    margin-right: 24px;
+}
+
+
+/* ========================== third section "Our team" ===========================*/
+
+.content-avatar {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.hit-our-team {
+    text-align:center;
+    margin-bottom: 8px;
+}
+
+.our-team-ul {
+    display: flex;
+}
+
+.page-our-team-li {
+    width: calc((100% - 72px) / 3);
+}
+
+/* ========================= forth section "Our portfolio"================= */
+
+.our-portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-our-portfolio-li {
+    width: calc((100% - 48px) / 3);
+    margin-right: 24px;
+}
+
+.content-avatar-our-portfolio {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
