@@ -72,6 +72,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 48px auto;
+    display: block;
+ 
 }
 
 button:focus,
@@ -153,6 +158,8 @@ button:hover {
     text-transform: capitalize;
     color: #2e2f42; 
     text-align: center;
+    margin-bottom: 72px;
+    padding-top: 120px;
  }
 
  .hit {
@@ -188,6 +195,7 @@ button:hover {
     letter-spacing: 0.02em;
     color: #434455;
     margin-top: 8px;
+    margin-bottom: 32px;
  }
 
  .text-color-footer {
@@ -228,6 +236,16 @@ footer {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+/* ======================= first section "Effective Solutions ========== */
+
+.main-page-container {
+    /* width: 496px; */
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 331px;
+    padding-right: 331px;
 }
 
 /* ========================= second section =========================*/
