@@ -278,8 +278,8 @@ footer {
 }
 
 .page-text-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
  }
 
 .description-ul {
@@ -317,6 +317,7 @@ footer {
 
 .page-our-team-li {
     width: calc((100% - 72px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .page-text-port {
@@ -356,6 +357,8 @@ footer {
 .main-page-section3-container {
     padding-top: 120px; 
     padding-bottom: 120px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 
