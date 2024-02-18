@@ -111,7 +111,7 @@ button:hover {
     margin-top: 32px;
     margin-left: 16px;
     margin-bottom: 8px;
-    /* margin-bottom: 64px;  
+    margin-bottom: 64px;  
  }
 
  .page-text {
@@ -157,7 +157,7 @@ footer {
 
 .page-item {
     background-color: #ffffff;
-} */
+} 
 
 /* .section {
     padding-top: 120px;
@@ -315,7 +315,7 @@ footer {
     border-radius: 0px 0px 4px 4px;
 }
 
-.page-our-team-li {
+.team-li {
     width: calc((100% - 72px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
@@ -337,7 +337,7 @@ footer {
 
 }
 
-.page-our-portfolio-li {
+.portfolio-li {
     width: calc((100% - 48px) / 3);
 }
 
