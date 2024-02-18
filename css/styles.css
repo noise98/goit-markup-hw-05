@@ -68,10 +68,10 @@ body {
     /* justify-content: space-between; */
 }
 
-.menu-page-address {
+.address-list {
     display: flex;
     gap: 40px;
-    /* justify-content: space-between;  */
+    
 }
 
 .menu-address-div {
@@ -235,9 +235,10 @@ button:hover {
     color: #f4f4fd;
  }
 
-.menu-address {
+.address {
     display: flex;
     font-style: normal;
+    margin-left: auto;
  }
 
 .page-texte-section {
@@ -346,7 +347,7 @@ footer {
 .our-portfolio-ul {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;     /*: 48px 24px; */
+    gap: 48px 24px; 
     padding-top: 120px; 
     padding-bottom: 120px;
 
