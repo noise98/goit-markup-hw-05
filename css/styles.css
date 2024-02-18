@@ -213,6 +213,7 @@ button:hover {
 
 .page-text-section3 {
     background-color: #ffffff;
+    padding-bottom: 120px;
 }
  
 .onepage-text-section {
@@ -319,15 +320,14 @@ footer {
 
 /*====================== footer================= */
 
-.main-page-container-footer {
+/* .main-page-container-footer {
     margin-top: 60px;
-}
+} */
 
 .main-page-container-footer {
-    width: 304px;
+    width: 264px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
     display: inline-block;
 }
     
