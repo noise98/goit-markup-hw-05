@@ -39,6 +39,7 @@ body {
  }
 
  .page-header {
+    display: flex;
     border-bottom: 1px solid #e7e9fc;
  }
 
@@ -63,6 +64,13 @@ body {
 
 .menu-address {
     display: flex;
+}
+
+.menu-item-address {
+    display: flex;
+    margin-right: 0;
+    gap: 40px;
+    margin-right: 40px;
 }
 
 button {
@@ -92,6 +100,7 @@ button:hover {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     
     
 }
