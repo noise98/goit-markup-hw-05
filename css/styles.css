@@ -140,6 +140,8 @@ button:hover {
     color: #ffffff;
     text-align: center;
     max-width: 496px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
     
  }
@@ -212,6 +214,8 @@ button:hover {
     color: #434455;
     margin-top: 8px;
     margin-bottom: 32px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     /* margin-left: 16px; */
  }
 
@@ -263,6 +267,8 @@ footer {
 /* ========================= second section =========================*/
 
 .content-avatar {
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-align:center;
 }
 
@@ -275,10 +281,12 @@ footer {
     display: flex;
     gap: 24px;
     background-color: #ffffff;
+    
 }
 
 .back-description-li {
     width: calc((100% - 72px) / 4);
+    
 }
 
 
@@ -297,6 +305,9 @@ footer {
 .our-team-ul {
     display: flex;
     gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .page-our-team-li {
@@ -315,6 +326,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 
 }
 
@@ -334,6 +347,7 @@ footer {
     margin-bottom: 0;
     padding-left: 0;
 }
+
 
 /*====================== footer================= */
 
