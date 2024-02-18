@@ -29,14 +29,25 @@ body {
     background-color: #ffffff;
  } 
 
- .page-text-section3,.page-texte-section,.page-text-section,.page-header-container {
+ .container {
+    max-width: 1158px;
+    padding-right: 0 15px;
+    margin: 0 auto;
+    
+ }
+
+ .page-header-container {
+    display: flex;
+ }
+
+ /* .page-text-section3,.page-texte-section,.page-text-section,.page-header-container {
     max-width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 
- }
+ } */
 
  .page-header {
     /* display: flex; */
@@ -235,8 +246,9 @@ button:hover {
 
 .page-text-section3 {
     background-color: #ffffff;
-    padding-bottom: 120px;
-    padding-top: 120px;
+    /* padding-bottom: 120px;
+    padding-top: 120px; */
+    padding: 120px 0;
 }
  
 .onepage-text-section {
@@ -278,8 +290,9 @@ footer {
 }
 
 .page-text-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    padding: 120px 0;
  }
 
 .description-ul {
