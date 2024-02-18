@@ -332,12 +332,18 @@ footer {
 /* ========================= forth section "Our portfolio"================= */
 
 .our-portfolio-ul {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap; 
+    column-gap: 24px;
     row-gap: 48px; 
     padding-top: 120px; 
-    padding-bottom: 120px;
+    padding-bottom: 120px; */
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+    
 
 }
 
