@@ -29,7 +29,7 @@ body {
     background-color: #ffffff;
  } 
 
- .page-text-section3,.page-texte-section,page-text-section {
+ .page-text-section3,.page-texte-section,.page-text-section,.page-header-container {
     max-width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
@@ -39,8 +39,9 @@ body {
  }
 
  .page-header {
-    display: flex;
+    /* display: flex; */
     border-bottom: 1px solid #e7e9fc;
+    
  }
 
  .page-nav {
@@ -142,6 +143,7 @@ button:hover {
     max-width: 496px;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
 
     
  }
