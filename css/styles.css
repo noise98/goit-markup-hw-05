@@ -170,6 +170,7 @@ footer {
 
 /* ===================== header =========================================*/
 .page-header {
+    max-width: 1158px;
     display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -334,6 +335,7 @@ footer {
     display: flex;
     flex-wrap: wrap; 
     row-gap: 48px; 
+    column-gap: 24;
     padding-top: 120px; 
     padding-bottom: 120px;
 
