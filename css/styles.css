@@ -141,8 +141,6 @@ button:hover {
     color: #ffffff;
     text-align: center;
     max-width: 496px;
-    padding-top: 188px;
-    padding-bottom: 188px;
     margin: 0 auto;
 
     
@@ -230,15 +228,20 @@ button:hover {
  }
 
 .page-texte-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #f4f4fd;
 }
 
 .page-text-section3 {
     background-color: #ffffff;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
  
 .onepage-text-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: #2e2f42;
 
 }
