@@ -244,7 +244,7 @@ button:hover {
     background: #f4f4fd;
 }
 
-.page-text-section3 {
+.page-text-sections {
     background-color: #ffffff;
     /* padding-bottom: 120px;
     padding-top: 120px; */
@@ -351,7 +351,7 @@ footer {
 }
 
 .page-our-portfolio-li {
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
     /* margin-right: 24px; */
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -367,7 +367,7 @@ footer {
     padding-left: 0;
 }
 
-.main-page-section3-container {
+.main-page-sections-container {
     padding-top: 120px; 
     padding-bottom: 120px;
     padding: 32px 16px;
