@@ -36,45 +36,6 @@ body {
     
  }
 
- .page-header-container {
-    display: flex;
-    align-items: center;
- }
-
- /* .page-text-section3,.page-texte-section,.page-text-section,.page-header-container {
-    max-width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-
- } */
-
- .page-header {
-    /* display: flex; */
-    border-bottom: 1px solid #e7e9fc;
-    
- }
-
- .page-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
- }
-
-.menu {
-    display: flex;
-    gap: 40px;
-    /* justify-content: space-between; */
-}
-
-.address-list {
-    display: flex;
-    gap: 40px;
-    
-}
-
 .menu-address-div {
     display: flex;
 }
@@ -83,7 +44,7 @@ body {
     display: flex;
     margin-right: 0;
     gap: 40px;
-    /* margin-right: 40px; */
+    margin-right: 40px;
 }
 
 button {
@@ -97,9 +58,9 @@ button {
     padding: 16px 32px;
     margin: 48px auto;
     display: block;
-     min-width: 169px;   /*додано */
+    min-width: 169px;   /*додано */
     height: 56px;       /*додано*/
-    border: none;       /*додано*/
+    border: none;       /*додано */
  
 }
 
@@ -108,42 +69,8 @@ button:hover {
     background-color: #404BBF;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-    
-    
-}
-    
  .text-color {
     color: #2e2f42;
- }
-
- .menu-link {
-    color: #2e2f42;
-    padding: 24px 0;
-    display: block;
- }
-
- .menu-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-
- }
-
- .menu-link:hover,
- .menu-link:focus {
-    color: #404bbf;
-    
  }
 
  .hop{
@@ -205,20 +132,6 @@ button:hover {
     /* margin-bottom: 64px;  */
  }
 
- .menu-link-address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
- }
-
- .menu-link-address:hover,
- .menu-link-address:focus {
-    color: #404bbf;
- }
-
  .page-text {
     font-weight: 400;
     font-size: 16px;
@@ -234,12 +147,6 @@ button:hover {
 
  .text-color-footer {
     color: #f4f4fd;
- }
-
-.address {
-    display: flex;
-    font-style: normal;
-    margin-left: auto;
  }
 
 .page-texte-section {
@@ -274,6 +181,87 @@ footer {
     padding-top: 120px;
     padding-bottom: 120px;
 } */
+
+
+
+/* ===================== header =========================================*/
+.page-header {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+ } 
+
+.page-nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+    
+ .menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.menu-link {
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+ }
+
+ .menu-link:hover,
+ .menu-link:focus {
+    color: #404bbf;
+    
+ }
+
+ .address {
+    display: flex;
+    font-style: normal;
+    margin-left: auto;
+    
+ }
+
+  .address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-link-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-left: auto;
+ }
+
+ .menu-link-address:hover,
+ .menu-link-address:focus {
+    color: #404bbf;
+ }
 
 /* ======================= first section "Effective Solutions ========== */
 
