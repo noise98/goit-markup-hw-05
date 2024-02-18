@@ -29,22 +29,9 @@ body {
     background-color: #ffffff;
  } 
 
- .container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
- }
 
 .menu-address-div {
     display: flex;
-}
-
-.menu-item-address {
-    display: flex;
-    margin-right: 0;
-    gap: 40px;
-    margin-right: 40px;
 }
 
 button {
@@ -190,6 +177,13 @@ footer {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+ }
+
 .page-header-container {
     display: flex;
     align-items: center;
@@ -246,6 +240,13 @@ footer {
   .address-list {
     display: flex;
     gap: 40px;
+}
+
+.menu-item-address {
+    display: flex;
+    margin-right: 0;
+    gap: 40px;
+    margin-right: 40px;
 }
 
 .menu-link-address {
