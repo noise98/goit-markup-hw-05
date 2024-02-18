@@ -29,7 +29,7 @@ body {
     background-color: #ffffff;
  } 
 
- .container {
+ .page-text-section3,.page-texte-section,page-text-section {
     max-width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
@@ -346,6 +346,11 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+}
+
+.main-page-section3-container {
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 
