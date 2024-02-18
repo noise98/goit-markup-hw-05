@@ -29,11 +29,6 @@ body {
     background-color: #ffffff;
  } 
 
-
-.menu-address-div {
-    display: flex;
-}
-
 button {
     font-weight: 500;
     background-color: #4D5AE5;
@@ -45,9 +40,9 @@ button {
     padding: 16px 32px;
     margin: 48px auto;
     display: block;
-    min-width: 169px;   /*додано */
-    height: 56px;       /*додано*/
-    border: none;       /*додано */
+    min-width: 169px;   
+    height: 56px;       
+    border: none;        
  
 }
 
@@ -116,7 +111,7 @@ button:hover {
     margin-top: 32px;
     margin-left: 16px;
     margin-bottom: 8px;
-    /* margin-bottom: 64px;  */
+    /* margin-bottom: 64px;  
  }
 
  .page-text {
@@ -162,7 +157,7 @@ footer {
 
 .page-item {
     background-color: #ffffff;
-}
+} */
 
 /* .section {
     padding-top: 120px;
@@ -181,8 +176,7 @@ footer {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    
- }
+}
 
 .page-header-container {
     display: flex;
