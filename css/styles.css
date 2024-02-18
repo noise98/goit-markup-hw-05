@@ -170,13 +170,13 @@ footer {
 
 /* ===================== header =========================================*/
 .page-header {
-    max-width: 1158px;
+    width: 1158px;
     display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -334,8 +334,7 @@ footer {
 .our-portfolio-ul {
     display: flex;
     flex-wrap: wrap; 
-    row-gap: 48px; 
-    column-gap: 24;
+    row-gap: 48px 24px; 
     padding-top: 120px; 
     padding-bottom: 120px;
 
@@ -343,6 +342,7 @@ footer {
 
 .page-our-portfolio-li {
     width: calc((100% - 48px) / 3);
+    margin-right: 0;
 }
 
 /* .our-portfolio-ul {
