@@ -84,6 +84,9 @@ button {
     padding: 16px 32px;
     margin: 48px auto;
     display: block;
+     min-width: 169px;   /*додано */
+    height: 56px;       /*додано*/
+    border: none;       /*додано*/
  
 }
 
@@ -136,18 +139,12 @@ button:hover {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    max-width: 496px;
 
     
  }
 
- .hew {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42; 
-    text-align: center;
+ .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -155,8 +152,17 @@ button:hover {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42; 
     text-align: center;
+   
  }
 
  .hut {
@@ -180,6 +186,7 @@ button:hover {
     text-align: left;
     margin-top: 32px;
     margin-left: 16px;
+    margin-bottom: 8px;
     /* margin-bottom: 64px;  */
  }
 
@@ -289,6 +296,7 @@ footer {
 
 .our-team-ul {
     display: flex;
+    gap: 24px;
 }
 
 .page-our-team-li {
@@ -335,8 +343,8 @@ footer {
 
 .main-page-container-footer {
     width: 264px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
     display: inline-block;
 }
     
@@ -345,4 +353,14 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 16px;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px; 
 }
