@@ -82,7 +82,7 @@ body {
     display: flex;
     margin-right: 0;
     gap: 40px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 button {
@@ -136,6 +136,7 @@ button:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
  }
 
  .menu-link:hover,
@@ -235,6 +236,7 @@ button:hover {
  }
 
 .menu-address {
+    display: flex;
     font-style: normal;
  }
 
@@ -344,7 +346,7 @@ footer {
 .our-portfolio-ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    row-gap: 48px;     /*: 48px 24px; */
     padding-top: 120px; 
     padding-bottom: 120px;
 
@@ -367,7 +369,7 @@ footer {
     padding-top: 120px; 
     padding-bottom: 120px;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
     border-top: none; 
 }
 
