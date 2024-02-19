@@ -318,6 +318,11 @@ footer {
 }
 
 .page-our-team-li {
+    background-color: #FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
@@ -396,10 +401,12 @@ footer {
 }
     
 .page-text-footer {
-    color: #f4f4fd;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
+    color: #f4f4fd;
+    background: #2e2f42;
+    max-width: 264px;
 }
 
 .footer {
