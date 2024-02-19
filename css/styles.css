@@ -257,10 +257,11 @@ footer {
 
 .main-page-container {
     /* width: 496px; */
-    padding-top: 188px;
+    /* padding-top: 188px; */
     padding-bottom: 292px;
     padding-left: 331px;
     padding-right: 331px;
+    padding: 188px 0;
 }
 
 /* ========================= second section =========================*/
@@ -308,6 +309,7 @@ footer {
     /* padding-top: 120px; */
     /* padding-bottom: 120px; */
     border-radius: 0px 0px 4px 4px;
+    padding: 120px;
 }
 
 .page-our-team-li {
@@ -341,6 +343,8 @@ footer {
     column-gap: 24px;
     row-gap: 48px;
     padding: 0;
+    padding-top: 120px; 
+    padding-bottom: 120px;
     
 
 }
