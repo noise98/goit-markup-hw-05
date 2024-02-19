@@ -124,9 +124,9 @@ button:hover {
     color: #434455;
     margin-top: 8px;
     margin-bottom: 32px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    /* margin-left: 16px; */
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
+    
  }
 
  .text-color-footer {
@@ -134,21 +134,19 @@ button:hover {
  }
 
 .page-texte-section {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-bottom: 120px;
     background: #f4f4fd;
 }
 
 .page-text-sections {
     background-color: #ffffff;
-    /* padding-bottom: 120px;
-    padding-top: 120px; */
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
  
 .onepage-text-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    /* padding-top: 188px;
+    padding-bottom: 188px; */
     background-color: #2e2f42;
 
 }
@@ -161,18 +159,12 @@ footer {
     background-color: #ffffff;
 } 
 
-/* .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-} */
-
-
-
 /* ===================== header =========================================*/
 .page-header {
     width: 1158px;
     display: flex;
     border-bottom: 1px solid #e7e9fc;
+    margin:auto;
 }
 
 .container {
@@ -313,14 +305,20 @@ footer {
 .page-our-team-ul {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px; */
+    /* padding-bottom: 120px; */
     border-radius: 0px 0px 4px 4px;
 }
 
 .page-our-team-li {
     width: calc((100% - 72px) / 3);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 
 .page-text-port {
@@ -362,6 +360,12 @@ footer {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .main-page-sections-container {
