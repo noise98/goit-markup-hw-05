@@ -331,6 +331,10 @@ footer {
 
 /* ========================= forth section "Our portfolio"================= */
 
+.page-our-portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+
 .our-portfolio-ul {
     /* display: flex;
     flex-wrap: wrap; 
@@ -347,9 +351,7 @@ footer {
 
 }
 
-.page-our-portfolio-li {
-    width: calc((100% - 48px) / 3);
-}
+
 
 /* .our-portfolio-ul {
     width: calc((100% - 48px) / 3);
