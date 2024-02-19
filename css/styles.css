@@ -394,10 +394,15 @@ footer {
 }
     
 .page-text-footer {
-    color: #f4f4fd;
+    /* color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
+    margin-top: 16px; */
+    max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 .footer {
