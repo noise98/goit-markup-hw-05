@@ -331,7 +331,7 @@ footer {
 
 /* ========================= forth section "Our portfolio"================= */
 
-.page-our-portfolio-li {
+.page-our-portfolio {
     width: calc((100% - 48px) / 3);
 }
 
