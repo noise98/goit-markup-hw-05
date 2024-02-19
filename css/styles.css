@@ -41,7 +41,6 @@ button {
     margin: 48px auto;
     display: block;
     min-width: 169px;   
-    height: 56px;       
     border: none;        
  
 }
@@ -320,7 +319,7 @@ footer {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 380px;
+    
 }
 
 .page-text-port {
@@ -369,7 +368,7 @@ footer {
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
     width: 360px;
-    height: 120px;
+    
 }
 
 .main-page-sections-container {
