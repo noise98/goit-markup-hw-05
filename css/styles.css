@@ -333,6 +333,13 @@ footer {
     margin-bottom: 32px;
 }
 
+.social-link {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+
 /* ========================= forth section "Our portfolio"================= */
 
 .our-portfolio-ul {
