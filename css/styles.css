@@ -228,6 +228,12 @@ footer {
     
  }
 
+ .menu-link-address:hover,
+ .menu-link-address:focus {
+    color: #404bbf;
+    
+ }
+
  .address {
     display: flex;
     margin-left: auto;
