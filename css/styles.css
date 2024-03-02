@@ -28,7 +28,7 @@ body {
     background-color: #ffffff;
  } 
 
-button {
+ .button-first-section {
     font-weight: 500;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -46,8 +46,8 @@ button {
  
 }
 
-button:focus,
-button:hover {
+.button-first-section:focus,
+.button-first-section:hover {
     background-color: #404BBF;
 }
 
@@ -697,3 +697,40 @@ footer {
 .logo-icon {
     fill: #f4f4fd;
 }
+
+/* ========================== Backdrop styles ============================== */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+/* ========================== /Backdrop styles ============================== */
+
+/* =========================== Modal window styles ============================ */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    min-height: 584px;
+    background: #fcfcfc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-btn-icon {
+    stroke: #2e2f42;
+    1
+
+}
+
+/* =========================== /Modal window styles ============================ */
+
