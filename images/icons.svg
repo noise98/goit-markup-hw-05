@@ -96,9 +96,9 @@
 <path fill="none" stroke="#2e2f42" style="stroke: var(--color4, #2e2f42)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6667" d="M30.167 4.833v22.333"></path>
 </symbol>
 <symbol id="icon-close-icon" viewBox="0 0 32 32">
-<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#e7e9fc" style="fill: var(--color5, #e7e9fc)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path fill="none" stroke="#000" style="stroke: var(--color6, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
-<path d="M21.333 11.741l-1.074-1.074-4.259 4.259-4.259-4.259-1.074 1.074 4.259 4.259-4.259 4.259 1.074 1.074 4.259-4.259 4.259 4.259 1.074-1.074-4.259-4.259 4.259-4.259z"></path>
+<path fill="#2e2f42" style="fill: var(--color4, #2e2f42)" d="M21.333 11.741l-1.074-1.074-4.259 4.259-4.259-4.259-1.074 1.074 4.259 4.259-4.259 4.259 1.074 1.074 4.259-4.259 4.259 4.259 1.074-1.074-4.259-4.259 4.259-4.259z"></path>
 </symbol>
     </defs>
 </svg>
