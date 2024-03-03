@@ -754,12 +754,12 @@ footer {
 
 }
 
-.is-open {
+/* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     
-}
+} */
 
 .modal-close-btn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -932,3 +932,25 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 /* =========================== /Review form styles ============================ */ 
+
+/* ========================== Subscribe styles ==================================== */
+
+.user-email-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.user-email-text {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+
+}
+
+/* ========================== /Subscribe styles ==================================== */
