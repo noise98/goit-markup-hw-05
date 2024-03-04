@@ -746,20 +746,20 @@ footer {
     padding: 0;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color #e7e9fc;
+    /* background-color #e7e9fc; */
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color transform 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* background-color */
 }
 
-/* .is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     
-} */
+}
 
 .modal-close-btn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -964,8 +964,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
 .form-footer-description {
-    display: inline-flex;
-    gap 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .form-footer-input {
@@ -989,10 +989,31 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .form-button-send-btn {
-    border-radius: 4px;
-    padding: 8px 24px;
-    width: 165px;
-    height: 40px;
-    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    min-width: 165px;
+    height: 40px; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;    
+
+    
+}
+
+.form-footer {
+    margin-left: 80px;
+}
+
+.logo-icon-telega {
+    margin-left: 16px;
 }
 /* ========================== /Subscribe styles ==================================== */
+
