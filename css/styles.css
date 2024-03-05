@@ -786,17 +786,15 @@ footer {
     display:block;
     min-width: 169px;   
     height: 56px; 
+    font-family: "Roboto";
+    font-size: 16px;
     font-weight: 500;
-    background-color: #4D5AE5;
-    border: none;
-    cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border-radius: 4px;
-    margin: 24px auto;
-    display: block;
-         
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
     
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.1);
