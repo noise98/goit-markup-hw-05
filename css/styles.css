@@ -625,14 +625,14 @@ footer {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: #404bbf;
-    border: none;
+    /* border: none; */
 }
 
 .modal-close-btn:hover > .modal-close-btn-icon,
 .modal-close-btn:focus > .modal-close-btn-icon {
     
     fill: #FFFFFF;
-    border: none;
+    /* border: none; */
 
 }
 
