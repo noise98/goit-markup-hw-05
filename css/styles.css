@@ -751,7 +751,7 @@ footer {
 
 .review-form-privity:checked + .review-form-checkbox .review-form-own-checkbox {
     background-color: #404bbf;
-    /* fill: #f4f4fd; */
+    fill: #f4f4fd;
     border: none;
 }
 
