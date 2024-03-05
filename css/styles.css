@@ -782,7 +782,7 @@ footer {
 }
 
 .review-button-send-btn {
-    border: none;
+    /* border: none; */
     font-weight: 500;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -843,7 +843,7 @@ footer {
     
     font-family: "Roboto", sans-serif;
     display: flex;
-    /* border: none; */
+    border: none;
     min-width: 165px;
     height: 40px; 
     justify-content: center;
